@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Audio/Video Consulting</title>
+    <style>
+        .slide-in {
+            text-align: center;
+            width: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .category {
+            margin: 20px 0;
+        }
+        .doctor {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .doctor img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .doctor-info {
+            flex: 1;
+        }
+        .doctor-name {
+            font-weight: bold;
+        }
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: red;
+            margin-right: 10px;
+        }
+        .status-dot.online {
+            background-color: green;
+        }
+        .buttons {
+            margin-left: auto;
+        }
+        .icon-button {
+            margin: 0 5px;
+            color: #333;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .icon-button:hover {
+            color: #007bff;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+
+     <link rel="stylesheet" type="text/css" href="loginstyle.css">
+</head>
+<body>
+    
+    <nav class="section__container nav__container">
+        <div class="top-box1">
+            <img src="images/Wellnexus.png"  alt="DeeMash">
+        </div>
+  
+        <ul class="nav__links">
+            <li class="link"><a href="1HOME.html">Home</a></li>
+            <li class="link"><a href="Pharmacy.html">Pharmacy</a></li>
+            <li class="link"><a href="Lab.html">Lab Test </a></li>
+            <li class="link"><a href="DO or PS.html">Log In </a></li>
+            <li class="link"><a href="Doctor .html"> <b> BOOKING DOCTOR </b></a></li>
+          </ul>
+      <button class="btn">Contact Us</button>
+    </nav>
+
+<div class="container">
+    <h1 class="slide-in">Online Audio/Video Consulting</h1>
+    <br>
+
+    <!-- General Practitioner (GP) -->
+    <div class="category">
+        <h2>General Practitioner (GP)</h2>
+        <div class="doctor">
+            <div class="status-dot online" id="gp1-status"></div>
+            <img src="../Online Audio Video Channel/images/Dr-Anidu-Pathirana.png" alt=" " class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr-Anidu-Pathirana</p>
+                <p>City Hospital</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="gp2-status"></div>
+            <img src="../Online Audio Video Channel/images/Dr-Roshan-Paranamana.png" alt=" " class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr-Roshan-Paranamana</p>
+                <p>Town Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="gp3-status"></div>
+            <img src="../Online Audio Video Channel/images/Dr-Sanjeewa-Rajapakse.png" alt=" " class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr Sanjeewa-Rajapakse.png</p>
+                <p>Central Medical Center</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cardiologist -->
+    <div class="category">
+        <h2>Cardiologist</h2>
+        <div class="doctor">
+            <div class="status-dot online" id="cardio1-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr Randika Withanage </p>
+                <p>Heart Health Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="cardio2-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr Dilshan Samarasinghe</p>
+                <p>Cardio Care Hospital</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="cardio3-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr Nirmali Fernando</p>
+                <p>Pulse Medical Center</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dermatologist -->
+    <div class="category">
+        <h2>Dermatologist</h2>
+        <div class="doctor">
+            <div class="status-dot online" id="derma1-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr Rohan Galappaththi</p>
+                <p>Skin Health Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="derma2-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr Gayani De Silva Fernando</p>
+                <p>Dermatology Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="derma3-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr Dumal Wanigasinghe</p>
+                <p>Clear Skin Medical Center</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pediatrician -->
+    <div class="category">
+        <h2>Pediatrician</h2>
+        <div class="doctor">
+            <div class="status-dot online" id="ped1-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr  Rashwini Rajapaksha</p>
+                <p>Children's Hospital</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="ped2-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr  Anura Pathirana</p>
+                <p>Kids Care Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="ped3-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr  Srimali Lanka</p>
+                <p>Happy Kids Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Orthopedic Surgeon -->
+    <div class="category">
+        <h2>Orthopedic Surgeon</h2>
+        <div class="doctor">
+            <div class="status-dot online" id="ortho1-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr Sagarika Adhikari</p>
+                <p>Bone Health Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="ortho2-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr  Thathsara Fernando</p>
+                <p>Orthopedic Center</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="ortho3-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr Tharuka Wanigasinghe</p>
+                <p>Joint Health Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Neurologist -->
+    <div class="category">
+        <h2>Neurologist</h2>
+        <div class="doctor">
+            <div class="status-dot online" id="neuro1-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr. Olivia Roberts</p>
+                <p>Brain Health Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="neuro2-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr. James White</p>
+                <p>Neuro Care Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="neuro3-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr. Grace Lee</p>
+                <p>Nerve Health Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ophthalmologist -->
+    <div class="category">
+        <h2>Ophthalmologist</h2>
+        <div class="doctor">
+            <div class="status-dot online" id="ophtha1-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr. David Green</p>
+                <p>Vision Care Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        
+        <div class="doctor">
+            <div class="status-dot online" id="ophtha3-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr. Charles Wilson</p>
+                <p>Optic Health Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Psychiatrist -->
+    <div class="category">
+        <h2>Psychiatrist</h2>
+        <div class="doctor">
+            <div class="status-dot online" id="psych1-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr. Anna Johnson</p>
+                <p>Mental Health Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        <div class="doctor">
+            <div class="status-dot online" id="psych2-status"></div>
+            <img src="../Online Audio Video Channel/images/doctor-default.gif" alt="" class="doctor-photo">
+            <div class="doctor-info">
+                <p class="doctor-name">Dr. Brian Scott</p>
+                <p>Wellness Clinic</p>
+            </div>
+            <div class="buttons">
+                <a href="audio-appointment.html" class="icon-button"><i class="fas fa-microphone"></i></a>
+                <a href="video-appointment.html" class="icon-button"><i class="fas fa-video"></i></a>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

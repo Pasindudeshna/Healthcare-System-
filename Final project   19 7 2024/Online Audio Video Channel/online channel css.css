@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+}
+.category {
+    margin-bottom: 20px;
+}
+.category h2 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 0 -20px;
+    padding-left: 20px;
+}
+.doctor {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.doctor:last-child {
+    border-bottom: none;
+}
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.online {
+    background-color: green;
+}
+.offline {
+    background-color: red;
+}
+.doctor-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.doctor-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.doctor-info p {
+    margin: 0;
+}
+.doctor-name {
+    font-weight: bold;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.icon-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.icon-button .fas {
+    pointer-events: none;
+}
